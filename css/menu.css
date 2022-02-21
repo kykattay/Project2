@@ -1,73 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
 * {
 	margin:0;
 	padding:0;
 }
-nav {
+.bg-light {
     background-color: #7A0C0C;
-    height: 150px;
 }
 .navbar-brand img{
    width:350px;
-   margin-top:40px;
-   margin-left: 40px;;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 40px;
 }
 .nav-link {
     color:#fff;
-    text-decoration: none;
 }
-ul {
-    display: flex;
-    color: #ffffff;
-    padding-left:500px;
-    list-style-type: none;
-}
+
 li {
-    padding-left: 60px;
+    padding-left: 40px;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
 }
 
 body {
     /* background-color: #E6AC95; */
-    opacity: 60%;  
     font-family:'Montserrat', sans-serif; 
-    position: relative;
-}
-.background-img{
-    width: 100%;
-    opacity: .8;
-    position: relative;
 }
 
 h1 {
     font-size: 55px;
-    margin-left: 40px;
-    position:absolute;
-    padding-top:60px;
-
+    margin-left: 70px;
+    padding-top:40px;
+    font-weight: 550;
+    font-family:'Montserrat', sans-serif; 
 }
 .appetizers {
     font-size: 30px;
     font-weight: 550;
-    margin-left: 40px;
-    padding-top: 160px;
-    position:absolute;
-
+    margin-left: 70px;
+    font-family:'Montserrat', sans-serif; 
 }
-.apps {
-    flex-direction: column;
+.col1 {
     font-weight: 450;
-    /* padding-top: 170px; */
-    position:absolute;
-
-    
+    line-height: 40px;
+    font-family:'Montserrat', sans-serif; 
+    width: 550px;
 }
 .apps-and-prices {
-    flex-wrap: wrap;
-    margin-left: 40px;
-    position:absolute;
-    padding-top: 210px;
+    margin-left: 70px;
+    width:400px;
+}
 
+.col2 {
+    line-height: 40px;
+    width: 550px;
 
 }
 
+.card-title {
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 600px;
+}
+
+.card-price {
+    font-weight: 700;
+    font-family:'Montserrat', sans-serif; 
+}
+.row {
+    padding-bottom: 30px;
+}
