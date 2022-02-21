@@ -11,23 +11,25 @@ nav {
    margin-top:40px;
    margin-left: 40px;;
 }
+.nav-link {
+    color:#fff;
+    text-decoration: none;
+}
 ul {
     display: flex;
     color: #ffffff;
-
+    padding-left:500px;
+    list-style-type: none;
 }
 li {
-    padding-left: 200px;
+    padding-left: 60px;
     font-family: 'Montserrat', sans-serif;
-}
-a li {
-    color: #fff;
-    text-decoration: none;
+    font-size: 25px;
 }
 
 body {
     /* background-color: #E6AC95; */
-    opacity: 90%;  
+    opacity: 60%;  
     font-family:'Montserrat', sans-serif; 
     position: relative;
 }
