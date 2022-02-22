@@ -4,7 +4,7 @@
 	margin:0;
 	padding:0;
 }
-.bg-light {
+.navbar {
     background-color: #7A0C0C;
 }
 .navbar-brand img{
@@ -39,8 +39,9 @@ body {
 h1 {
     font-size: 55px;
     margin-left: 70px;
-    padding-top:40px;
+    padding-top:75px;
     font-weight: 550;
+    padding-left: 90px;
     font-family:'Montserrat', sans-serif; 
 }
 .appetizers {
@@ -48,6 +49,7 @@ h1 {
     font-weight: 550;
     margin-left: 95px;
     padding-top: 40px;
+    padding-left: 65px;
     font-family:'Montserrat', sans-serif; 
 }
 
@@ -68,9 +70,10 @@ h1 {
     font-size: 15px;
 }
 .row {
-    padding-bottom: 30px;
+    padding-bottom: 45px;
     font-size: 15px;
-    padding-left: 25px;
+    padding-left: 90px;
+    
 }
 
 .apps {
@@ -79,4 +82,7 @@ h1 {
     width: 200px
 }
 
-   
+/*  Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
