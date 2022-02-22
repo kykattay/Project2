@@ -11,10 +11,11 @@
    width:350px;
    margin-top: 20px;
    margin-bottom: 20px;
-   margin-left: 40px;
+   margin-left: 50px;
 }
 .nav-link {
     color:#fff;
+    font-size: 20px;
 }
 
 li {
@@ -24,8 +25,11 @@ li {
 }
 
 body {
-    /* background-color: #E6AC95; */
-    font-family:'Montserrat', sans-serif; 
+    background-color: #E6AC95;
+    font-family:'Montserrat', sans-serif;
+    background-image: url(../images/cloud-pattern.png); 
+    background-size: cover;
+    background-repeat: repeat;
 }
 
 h1 {
@@ -39,23 +43,13 @@ h1 {
     font-size: 30px;
     font-weight: 550;
     margin-left: 70px;
+    padding-top: 40px;
     font-family:'Montserrat', sans-serif; 
 }
-.col1 {
-    font-weight: 450;
-    line-height: 40px;
-    font-family:'Montserrat', sans-serif; 
-    width: 550px;
-}
+
 .apps-and-prices {
     margin-left: 70px;
     width:400px;
-}
-
-.col2 {
-    line-height: 40px;
-    width: 550px;
-
 }
 
 .card-title {
@@ -70,4 +64,7 @@ h1 {
 }
 .row {
     padding-bottom: 30px;
+    font-size: 18px;
 }
+
+   
