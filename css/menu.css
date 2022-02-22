@@ -18,6 +18,10 @@
     font-size: 20px;
 }
 
+.navbar-nav {
+    text-align: right;
+}
+
 li {
     padding-left: 40px;
     font-family: 'Montserrat', sans-serif;
@@ -25,7 +29,7 @@ li {
 }
 
 body {
-    background-color: #E6AC95;
+    background-color: #E3B29E;
     font-family:'Montserrat', sans-serif;
     background-image: url(../images/cloud-pattern.png); 
     background-size: cover;
@@ -42,7 +46,7 @@ h1 {
 .appetizers {
     font-size: 30px;
     font-weight: 550;
-    margin-left: 70px;
+    margin-left: 95px;
     padding-top: 40px;
     font-family:'Montserrat', sans-serif; 
 }
@@ -61,10 +65,18 @@ h1 {
 .card-price {
     font-weight: 700;
     font-family:'Montserrat', sans-serif; 
+    font-size: 15px;
 }
 .row {
     padding-bottom: 30px;
-    font-size: 18px;
+    font-size: 15px;
+    padding-left: 25px;
+}
+
+.apps {
+    font-size: 20px;
+    font-weight: 600;
+    width: 200px
 }
 
    
