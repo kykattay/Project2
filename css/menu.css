@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
 * {
@@ -44,6 +45,7 @@ h1 {
     padding-left: 90px;
     font-family:'Montserrat', sans-serif; 
 }
+
 .appetizers {
     font-size: 30px;
     font-weight: 550;
@@ -51,11 +53,6 @@ h1 {
     padding-top: 40px;
     padding-left: 65px;
     font-family:'Montserrat', sans-serif; 
-}
-
-.apps-and-prices {
-    margin-left: 70px;
-    width:400px;
 }
 
 .card-title {
@@ -84,5 +81,47 @@ h1 {
 
 /*  Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+.navbar-brand img {
+    width: 150px;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 0px;
+    padding-top:35px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.appetizers {
+    font-size: 25px;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family:'Montserrat', sans-serif; 
+}
+
+.row {
+    padding-bottom: 30px;
+    font-size: 15px;
+    padding-left: 40px;
+    
+}
+
+.apps {
+    padding-left: 40px;
+}
+.col {
+    padding-bottom: 35px;
+    padding-left: 40px;
+}
+
+
+
 
 }
