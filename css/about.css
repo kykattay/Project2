@@ -93,6 +93,9 @@ figcaption {display: flex;
           background-color:#E6AC95;
           color: #000;
           font-family:'Montserrat', sans-serif; 
+          background-image: url(../images/cloud-pattern.png); 
+    background-size: contain;
+    background-repeat: repeat;
       }
     ul {
       flex-direction: column;
