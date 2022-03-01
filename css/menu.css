@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+* {
+	margin:0;
+	padding:0;
+}
+.bg-light {
+.navbar {
+    background-color: #7A0C0C;
+}
+.navbar-brand img{
+@@ -39,15 +39,17 @@ body {
+h1 {
+    font-size: 55px;
+    margin-left: 70px;
+    padding-top:40px;
+    padding-top:75px;
+    font-weight: 550;
+    padding-left: 90px;
+    font-family:'Montserrat', sans-serif; 
+}
+.appetizers {
+    font-size: 30px;
+    font-weight: 550;
+    margin-left: 95px;
+    padding-top: 40px;
+    padding-left: 65px;
+    font-family:'Montserrat', sans-serif; 
+}
+
+@@ -68,9 +70,10 @@ h1 {
+    font-size: 15px;
+}
+.row {
+    padding-bottom: 30px;
+    padding-bottom: 45px;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-left: 90px;
+
+}
+
+.apps {
+@@ -79,4 +82,7 @@ h1 {
+    width: 200px
+}
+
+
+/*  Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+  99  menu.html 
+@@ -11,7 +11,7 @@
+
+    <body>
+        </head> 
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="images/miso-grill-logo-white.png"></a>
+                    <div class="collapse navbar-collapse" id="navbarText">
+@@ -37,55 +37,55 @@ <h1>MENU</h1>
+        <div class="container">    
+            <div class="row">
+                <div class="col apps">
+                Beef Gyoza
+                    Beef Gyoza
+                </div>
+                <div class="col apps">
+                6.00
+                    6.00
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col apps">
+                Vegetable Gyoza
+                    Vegetable Gyoza
+                </div>
+                <div class="col apps">
+                5.00
+                    5.00
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col apps">
+                Spring Rolls
+                    Spring Rolls
+                </div>
+                <div class="col apps">
+                4.00
+                    4.00
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col apps">
+                Edamame
+                    Edamame
+                </div>
+                <div class="col apps">
+                5.50
+                    5.50
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col apps">
+                Miso Soup
+                    Miso Soup
+                </div>
+                <div class="col apps">
+                2.50
+                    2.50
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col apps">
+                Shrimp Tempura
+                    Shrimp Tempura
+                </div>
+                <div class="col apps">
+                7.00
+                    7.00
+                </div>
+            </div>
+        </div>
+@@ -96,7 +96,7 @@ <h1>MENU</h1>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                    <div class="card">
+                    <!-- <div class="card">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/california-roll.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+@@ -106,7 +106,16 @@ <h5 class="card-title">CALIFORNIA ROLL</h5>
+                                <p class="card-price">6.00</p>
+                            </div>
+                        </div>
+                    </div>              
+                    </div>               -->
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/california-roll.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <div class="card-title">CALIFORNIA ROLL</div>
+                        <p class="card-text">crab, avocado, and cucumber wrapped in salmon</p>
+                        <p class="card-text">8 pieces</p>
+                        <p class="card-price">6.00</p>
+                        </div>
+                    </div>       
+                </div>
+              <div class="col">
+                    <div class="card" style="width: 18rem;">
+@@ -244,6 +253,66 @@ <h5 class="card-title">ASSORTED PARTY PLATE</h5>
+
+            </div>
+        </div>
+
+        <div class="appetizers">
+            <p>DRINKS</p>
+        </div>
+
+        <div class="container">    
+            <div class="row">
+                <div class="col apps">
+                    Coca-Cola
+                </div>
+                <div class="col apps">
+                    2.00
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col apps">
+                    Sprite
+                </div>
+                <div class="col apps">
+                    2.00
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col apps">
+                    Green Tea
+                </div>
+                <div class="col apps">
+                    3.00
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col apps">
+                    Sparkling Water
+                </div>
+                <div class="col apps">
+                    2.00
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col apps">
+                    Water
+                </div>
+                <div class="col apps">
+                    1.00
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col apps">
+                Shrimp Tempura
+                </div>
+                <div class="col apps">
+                7.00
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
