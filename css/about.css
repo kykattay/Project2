@@ -49,7 +49,9 @@ figcaption {display: flex;
   }
   
   h1 {
+    padding-left: 50px;
     font-size: 55px;
+    font-weight: 550;
     color: black;
    margin: 35px;
     font-family:'Montserrat', sans-serif; 
