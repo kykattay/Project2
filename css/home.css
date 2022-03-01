@@ -30,7 +30,7 @@ li {
 body {
     background-color: #E3B29E;
     font-family:'Montserrat', sans-serif;
-    background-image: url(../background\ pattern.png); 
+    background-image: url(../images/background\ pattern.png); 
     background-size: cover;
     background-repeat: repeat;
     
@@ -54,5 +54,7 @@ p{
 
 .row {width: 95%;}
 
-
+body{
+    background-size: contain;
+}
 }
