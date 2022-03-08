@@ -108,7 +108,8 @@ img {width: 300px;
   text-align: center;}
 
 figcaption {width:300px;
-  text-align: center;}
+  text-align: center;
+padding-left: 35px;}
 
 h1 {font-size: 35px;
   text-align: center;}
