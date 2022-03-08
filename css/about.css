@@ -112,10 +112,12 @@ figcaption {width:300px;
 }
 
 h1 {font-size: 35px;
-  text-align: center;}
+  text-align: center;
+padding: 0px;}
 
   h2 {font-size: 35px;
-    text-align: center;}
+    text-align: center;
+    padding: 0px;}
   
 p {font-size: 12px;
   text-align: center;}
