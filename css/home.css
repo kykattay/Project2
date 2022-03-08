@@ -21,6 +21,9 @@
 .navbar-nav {
     text-align: right;
 }
+.header{
+    font-size: 40px;
+}
 
 li {
     padding-left: 40px;
@@ -47,10 +50,15 @@ p{
 .row{
     margin: 40px;
 }
-
-.h1{
+h1 {
+    padding-left: 50px;
+    font-size: 55px;
+    font-weight: 550;
+    color: black;
+   margin: 35px;
+    font-family:'Montserrat', sans-serif; 
     text-align: center;
-}
+  }
 
 @media only screen and (max-width: 600px) {
 
@@ -71,4 +79,9 @@ p{
 .navbar-brand-img{
     width: 260px;
 }
+h1 {
+  
+    font-family:'Montserrat', sans-serif; 
+    text-align: center;
+  }
 }
