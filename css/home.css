@@ -85,4 +85,9 @@ h1 {
     text-align: center;
     padding: 0px;
   }
+
+  .row{
+      width: 88%;
+      justify-content: center;
+  }
 }
